@@ -36,9 +36,9 @@ const query = currentRoute?.query;
 const path = currentRoute?.fullPath;
 const newHost = 'https://priorb.com';
 const newSite = `${newHost}${path}`;
-// setTimeout(() => {
-//   window.location.replace(newSite)
-// }, 5000);
+setTimeout(() => {
+  window.location.replace(newSite)
+}, 0);
 </script>
 
 <style scoped>
